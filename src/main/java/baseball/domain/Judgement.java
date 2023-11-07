@@ -14,8 +14,8 @@ public class Judgement {
         return result;
     }
 
-    public boolean hasPlace(List<Integer> computer, int placeNumber, int number) {
+    public boolean hasPlace(List<Integer> computer, int placeIndex, int number) {
         // TODO: 특정 자리에 특정 숫자가 있는지
-        return false;
+        return computer.get(placeIndex) == number;
     }
 }
